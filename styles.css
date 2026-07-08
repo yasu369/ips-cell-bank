@@ -482,6 +482,68 @@ img {
 
 .governance-grid article { padding: 26px; }
 
+.about-section {
+  background: var(--mist);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 20px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.about-grid article {
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 18px 50px rgba(8, 24, 32, .07);
+}
+
+.about-grid h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.about-grid p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.company-list {
+  margin: 0;
+}
+
+.company-list div {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 18px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.company-list div:first-child {
+  padding-top: 0;
+}
+
+.company-list div:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.company-list dt {
+  color: var(--teal);
+  font-weight: 900;
+}
+
+.company-list dd {
+  margin: 0;
+  color: var(--muted);
+}
+
 .faq-list {
   max-width: 980px;
   margin: 0 auto;
@@ -575,6 +637,7 @@ img {
   .proof-band,
   .feature-grid,
   .governance-grid,
+  .about-grid,
   .package-grid,
   .split-grid {
     grid-template-columns: 1fr;
@@ -610,7 +673,8 @@ img {
   }
 
   .process-list li,
-  .signal-list article {
+  .signal-list article,
+  .company-list div {
     grid-template-columns: 1fr;
     gap: 8px;
   }
