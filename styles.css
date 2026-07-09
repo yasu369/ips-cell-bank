@@ -188,7 +188,7 @@ img {
 .hero-copy {
   position: relative;
   z-index: 1;
-  max-width: 920px;
+  max-width: 960px;
 }
 
 .eyebrow {
@@ -209,18 +209,18 @@ img {
 }
 
 .lead {
-  max-width: 720px;
+  max-width: 620px;
   margin: 28px 0 0;
   color: rgba(255, 255, 255, .76);
-  font-size: clamp(17px, 1.5vw, 21px);
-  line-height: 1.75;
+  font-size: clamp(18px, 1.6vw, 22px);
+  line-height: 1.55;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 38px;
+  margin-top: 34px;
 }
 
 .hero-panel {
@@ -228,7 +228,7 @@ img {
   right: clamp(20px, 6vw, 88px);
   bottom: clamp(28px, 5vw, 68px);
   z-index: 2;
-  width: min(360px, calc(100vw - 40px));
+  width: min(320px, calc(100vw - 40px));
   padding: 24px;
   border: 1px solid rgba(214, 188, 127, .28);
   border-radius: 4px;
@@ -248,7 +248,7 @@ img {
 .hero-panel strong {
   display: block;
   margin-top: 10px;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1.15;
 }
 
